@@ -1,0 +1,38 @@
+Kesimpulan Pertemuan 4-7
+Deskripsi :
+- Dataset kelulusan_mahasiswa.csv (jumlah baris dan variabel mahasiswa dan kelulusan) tersedia di repo.
+- Notebook melakukan proses dari eksplorasi data (EDA), pembersihan / preprocessing, pemodelan klasifikasi untuk prediksi kelulusan mahasiswa.
+- Output: model akhir (termasuk model.pkl) dan grafik learning curve (learning_curve.png). 
+GitHub
+Ringkasan :
+- Fokus pertemuan ini adalah memahami bagaimana data mahasiswa (fitur seperti IPK, kehadiran, dsb) bisa dipakai untuk memprediksi kelulusan atau tidak.
+- Pekerjaan mencakup seluruh alur: load data → bersihkan → pelajari fitur → latihan model → evaluasi.
+- Model dan artefak (model.pkl) menunjukkan bahwa materi sudah sampai ke tahap “siap deploy” atau “siap prediksi”.
+
+Kesimpulan Pertemuan 5
+Deskripsi :
+- Notebook pertemuan ini menunjukkan kelanjutan dari pertemuan sebelumnya—kemungkinan eksplorasi model tambahan atau tuning parameter.
+- Sesi ini adalah langkah lanjutan (membandingkan beberapa algoritma, cross-validation, atau peningkatan model).
+Ringkasan :
+- Pertemuan ini memperdalam teknik pemodelan: bukan hanya “bisa prediksi”, tapi “bagaimana supaya model lebih baik”.
+- Mahasiswa didorong untuk melakukan eksperimen—memilih algoritma berbeda, mengatur hyper-parameter, atau melakukan validasi lebih kuat.
+- Hasilnya model yang lebih kuat, kode modular (dipisah ke skrip.py) yang mempermudah pemeliharaan.
+
+Kesimpulan Pertemuan 6
+Deskripsi :
+- Notebook ini menunjukkan sesi yang lebih lanjut—kemungkinan implementasi model lanjutan seperti ensemble, ataupun deployment awal.
+- File rf_model.pkl (random forest model) dan grafik roc_test.png menunjukkan bahwa di pertemuan ini dicapai model ensemble dengan evaluasi ROC.
+- Ada juga file processed_kelulusan.csv yang menunjukkan preprocessing dan persiapan data sudah matang sebelum modeling.
+Ringkasan :
+- Pada pertemuan ini mahasiswa belajar bagaimana menggunakan data yang sudah diproses untuk model yang lebih kompleks (misalnya Random Forest) dan mengevaluasi dengan metrik yang lebih tajam (ROC).
+- Ini meningkatkan kualitas prediksi dan membawa proyek mendekati tahap industrialisasi/model siap pakai.
+- Pemisahan model dan data preprocessing menunjukkan alur yang lebih profesional (data pipeline → modeling → evaluasi).
+
+Kesimpulan Pertemuan 7
+Deskripsi :
+- Notebook ini adalah sesi terakhir dalam seri (sampai pertemuan 7). Fokusnya pada pengujian akhir dan siap dipakai, pr_test.png yang mungkin menunjukkan precision-recall test atau plot pengujian final.
+- Model sudah disimpan (model.pkl, rf_model.pkl), data siap (processed_kelulusan.csv), pengujian visual siap (roc_test.png, pr_test.png).
+Ringkasan :
+- Pertemuan ini menggabungkan seluruh alur: data → preprocessing → modeling → evaluasi akhir → artefak siap.
+- Mahasiswa mendapat pengalaman end-to-end dari proyek ML nyata: dari data mentah hingga model siap prediksi.
+- Ini menegaskan bahwa tugas ML tidak hanya coding, tapi juga evaluasi, visualisasi, dan dokumentasi.
