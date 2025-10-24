@@ -1,7 +1,0 @@
-machine learning note PT4
-step 6
-artinya pada saat kamu melakukan stratified split, salah satu kelas (Lulus = 0 atau 1) hanya memiliki 1 data saja di subset yang akan dibagi, sedangkan train_test_split butuh minimal 2 data per kelas agar bisa melakukan stratifikasi.
-
-Karena dataset kamu kecil (10 data), stratified split ke 3 bagian (70/15/15) kemungkinan gagal karena jumlah data tiap kelas sangat sedikit.
-
-Solusinya paling realistis: bagi data jadi 2 bagian saja (train & test), misal 80/20, dengan stratify, atau tambah data supaya proporsi cukup besar.
